@@ -1,8 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Facefinder App designed by Andrei Neagoie in his JS Zero to Mastery Course
+# Facefinder App
 
-This project will go over using React to build a full stack application. 
+## designed by Andrei Neagoie in his JS Zero to Mastery Course
+
+This project will go over using React to build a full stack application.
 
 - React
 - Node.js
