@@ -1,12 +1,16 @@
+:root {
+	--primary-color: #ff0404;
+	--secondary-color: #ffffff4d;
+}
 .form {
 	width: 700px;
 	background:
-		radial-gradient(circle farthest-side at 0% 50%,#de0000 23.5%,rgba(240,166,17,0) 0)21px 30px,
-		radial-gradient(circle farthest-side at 0% 50%,#000 24%,rgba(240,166,17,0) 0)19px 30px,
-		linear-gradient(#de0000 14%,rgba(240,166,17,0) 0, rgba(240,166,17,0) 85%,#de0000 0)0 0,
-		linear-gradient(150deg,#de0000 24%,#000 0,#000 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#000 0,#000 76%,#de0000 0)0 0,
-		linear-gradient(30deg,#de0000 24%,#000 0,#000 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#000 0,#000 76%,#de0000 0)0 0,
-		linear-gradient(90deg,#000 2%,#de0000 0,#de0000 98%,#000 0%)0 0 #de0000;
+		radial-gradient(circle farthest-side at 0% 50%, var(--primary-color) 23.5%,rgba(240,166,17,0) 0)21px 30px,
+		radial-gradient(circle farthest-side at 0% 50%,var(--secondary-color) 24%,rgba(240,166,17,0) 0)19px 30px,
+		linear-gradient( var(--primary-color) 14%,rgba(240,166,17,0) 0, rgba(240,166,17,0) 85%, var(--primary-color) 0)0 0,
+		linear-gradient(150deg, var(--primary-color) 24%,var(--secondary-color) 0,var(--secondary-color) 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,var(--secondary-color) 0,var(--secondary-color) 76%, var(--primary-color) 0)0 0,
+		linear-gradient(30deg, var(--primary-color) 24%,var(--secondary-color) 0,var(--secondary-color) 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,var(--secondary-color) 0,var(--secondary-color) 76%, var(--primary-color) 0)0 0,
+		linear-gradient(90deg,var(--secondary-color) 2%, var(--primary-color) 0, var(--primary-color) 98%,var(--secondary-color) 0%)0 0  var(--primary-color);
 
 	background-size: 40px 60px;
 }
