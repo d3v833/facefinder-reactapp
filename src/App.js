@@ -90,7 +90,7 @@ class App extends Component {
 				{route === 'home' ? (
 					<div>
 						<Logo />
-						<Rank />
+						{/* <Rank /> */}
 						<ImageLinkForm
 							onInputChange={this.onInputChange}
 							onBtnSubmit={this.onBtnSubmit}
